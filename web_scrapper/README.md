@@ -17,3 +17,30 @@ Thus we need to **synthetically generate fakes news** so that the ratio between 
 # Implementation
 
 ## General Flow
+
+<p align="center">
+  <img src="https://github.com/JinJis/DACON-fake-news-identification/blob/master/image/dacon_general.png" width="350" title="hover text">
+</p>
+
+
+## Steps Explained
+
+### (1) Scrape News Data from Collected Domain
+
+### (2) Generate Fake News By Shuffling
+
+<p align="center">
+  <img src="https://github.com/JinJis/DACON-fake-news-identification/blob/master/image/links_to_fake.png" width="550" title="hover text">
+</p>
+
+### (3) Preprocess given News Train sets to match format
+
+<p align="center">
+  <img src="https://github.com/JinJis/DACON-fake-news-identification/blob/master/image/train_to_filtered.png" width="550" title="hover text">
+</p>
+
+### (4) Discard Any Duplicate Combination from (2)
+
+<p align="center">
+  <img src="https://github.com/JinJis/DACON-fake-news-identification/blob/master/image/final_fake_result.png" width="550" title="hover text">
+</p>

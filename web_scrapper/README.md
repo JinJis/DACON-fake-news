@@ -15,3 +15,5 @@ If we count real set over fake set, fake counts more than the real one. In every
 Thus we need to **synthetically generate fakes news** so that the ratio between real and fakes are as same as possible.
 
 # Implementation
+
+## General Flow
